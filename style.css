@@ -1,0 +1,301 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header{
+    margin:  0 auto;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+header div {
+    display: flex;
+    justify-content: space-around;
+    
+}
+header div a {
+    margin: 5px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+main{
+    margin:  0 auto;
+    width: 92%;
+}
+.premier{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.logement{
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    width: 68%;
+}
+.logement  a img{
+    
+    width: 100%;
+    height: 130px;    
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+}
+
+.logement div{
+    width: 27%;
+    display: inline-block;
+    box-shadow:0 0 1rem gray;
+    justify-content: space-between;
+    background-color: white;
+    margin: 1%;
+    margin-left: 3%;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+
+
+
+form a{
+    padding: 1%;
+    border: solid lightblue 1px;
+    border-radius: 25px;
+    
+}
+form i{
+    margin-left: -1%;
+    padding: 1%;
+    border-radius: 25px;
+    border: solid lightblue 2px;
+    background-color: lightblue;
+}
+
+.left{
+    background-color: #F2F2F2;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    
+    margin-right: -5px;
+    border-top-left-radius: 15px 15px;   
+    border-bottom-left-radius: 15px 15px;
+    margin-top: -3px;
+}
+.right{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-top-right-radius: 15px 15px;   
+    border-bottom-right-radius: 15px 15px;
+    margin-left: -5px;
+    padding: 17px;
+    margin-top: -3px;
+}
+.mid{
+    padding: 15px;
+    border: solid #F2F2F2 2px;
+    margin-top: 3%;
+}
+form{
+    margin: 2%;
+}
+
+p i{
+    border: solid 2px #F2F2F2 ;
+    border-radius: 50px ;
+    padding: 15px;
+}
+
+
+.heber{
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+/*
+.heber a img{
+
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 30px 30px;   
+    border-bottom-left-radius: 30px 30px;
+}*/
+.heber div{
+    box-shadow:0 0 1rem gray;
+    margin: 3%;
+    width: 80%;
+    height: 160px;
+    background-color:white ;
+    border-radius: 30px;
+    padding: 1%;
+}
+.heber a{
+    height: 100%;
+    display: flex;
+}
+.logement h2,h4{
+    margin-left: 3%;
+}
+footer{
+    display: flex;
+
+    background-color: #F2F2F2;
+}
+footer div{
+    width: 30%;
+    margin-left: 2%;
+    text-align: start;
+    
+}
+li{
+    list-style: none;
+}
+#mid img{
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px; 
+}
+#mid{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.mars{
+    display: flex;
+    width: 48%;
+}
+.eille{
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+}
+.mars div{
+    width: 47%;
+}
+.a{
+    width: 48%;
+    margin-right: 5%;
+    
+    box-shadow:0 0 1rem gray;
+    border-radius: 30px 30px;
+    height: 600px;
+    
+}
+.a img{
+    width: 100%;
+    height: 500px;
+    
+}
+.b{
+    width: 48%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ok{
+
+    height: 350px;
+}
+.plus{
+    height: 240px;
+}
+.b p{
+    box-shadow:0 0 1rem gray;
+    margin: 0px;
+    border-radius: 30px 30px;
+}
+
+.b span{
+   padding-left: 10%;
+}
+
+.b img{
+    
+    width: 100%;
+    
+}
+.b span{
+    height: 70px;
+}
+
+.good{
+    height: 295px;
+}
+#un{
+    height: 300px;
+}
+
+#deux{
+    height: 140px;
+}
+.trois{
+    height: 220px;
+}
+@media screen and (max-width: 400px){
+
+
+
+    header div {
+        margin-top: 30px;
+        
+    }
+    .desc{   
+        margin-top: 70px;
+        margin-left: -100px;
+        margin-right: 100px;
+    }
+
+    .desce{   
+        margin-top: 70px;
+        margin-right: -50px;
+        margin-right: 50px;
+    }
+    /*main form div{
+        display: flex;
+        flex-wrap: wrap;
+    }*/
+    main div a{
+margin: 5px;
+    }
+    .premier{
+        display: flex;
+        flex-direction: column;
+    }
+    .logement{
+        display: flex;
+        flex-direction: column;
+    }
+    .logement{
+        border-radius: 30px;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .logement  a img{
+        border-top-right-radius:0px 0px;
+        width: 40%;
+        height: 100%;
+        border-top-left-radius: 30px 30px;   
+        border-bottom-left-radius: 30px 30px;
+    }
+    .logement div{
+        width: 95%;
+        display:flex;
+        flex-wrap: wrap;
+        box-shadow:0 0 1rem gray;
+        justify-content: space-between;
+        background-color: white;
+        margin: 1%;
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 30px;
+        
+    }
+}
